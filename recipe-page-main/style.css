@@ -1,0 +1,128 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Young Serif", serif;
+}
+h2{
+    color:hsl(14, 45%, 36%) ;
+}
+body{
+    background-color:hsl(30, 54%, 90%);
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contianers{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: aliceblue;
+    width: 30%;
+    height: 100vr;
+    border-radius: 10px;
+}
+.photo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+}
+.photo img{
+    width: 420px;
+    height:220px;
+    border-radius: 10px;
+}
+.head{
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+.inf{
+    padding: 20px;
+    width: 400px;
+    display: grid;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: hsla(14, 45%, 36%, 0.05);
+    border-radius: 10px;
+}
+.inf h3{
+    color: hsl(14, 46%, 23%);
+}
+.inf ul {
+    padding-left:30px;
+    padding-top: 10px;
+    display:flex;
+    flex-direction: column;
+}
+.inf span{
+    font-weight:bolder;
+}
+.title1{
+    display: flex;
+    flex-direction: column;
+    width: 420px;
+    padding-top: 10px;
+    border-bottom:1px solid hsla(13, 46%, 23%, 0.363);
+}
+.title1 ul{
+    padding: 20px 30px;
+}
+.title2{
+    display: flex;
+    flex-direction: column;
+    width: 420px;
+    padding-top: 10px;
+    border-bottom:1px solid hsla(13, 46%, 23%, 0.363);
+}
+.title2 span{
+    font-weight: bolder;
+}
+.title2 ol{
+    padding: 20px 30px;
+    color: hsl(13, 50%, 37%);
+}
+.title2 li{
+    gap: 50px;
+}
+.title2 p{
+    padding-left: 10px;
+    color: black;
+    padding-bottom: 10px;
+    font-size: smaller;
+}
+.foot{
+    display: flex;
+    flex-direction: column;
+    width: 420px;
+    padding-top: 10px;
+}
+.foot p{
+    padding: 10px;
+    font-size: smaller;
+    border-bottom: 1px solid;
+}
+.foot span{
+    color: hsl(13, 50%, 37%);
+    padding-left: 50px;
+}
+@media (max-width:650px){
+    .contianers{
+        width: 100%;
+    }
+}
+@media(max-width:990)and(min-width:650px){
+    body{
+        width: 100%;
+    }
+    .contianers , .head ,.foot ,.inf ,.photo{
+        width: 7px; 
+    }
+    
+}
